@@ -1,3 +1,4 @@
+# deprecated date-time-format replaced by
 [date-time-string](https://www.npmjs.org/package/date-time-string) - npm
 ====
 

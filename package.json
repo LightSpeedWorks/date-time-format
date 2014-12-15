@@ -1,18 +1,21 @@
 {
   "name": "date-time-format",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "date-time-format",
-  "main": "lib/date-time.js",
+  "main": "index.js",
+  "dependencies": {
+    "date-time-string": ">=0.0.6"
+  },
+  "author": "LightSpeedC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/LightSpeedWorks/date-time-format.git"
   },
-  "author": "LightSpeedC",
-  "license": "MIT",
+  "homepage": "https://github.com/LightSpeedWorks/date-time-format#readme",
   "bugs": {
     "url": "https://github.com/LightSpeedWorks/date-time-format/issues"
   },
-  "homepage": "https://github.com/LightSpeedWorks/date-time-format#readme",
   "scripts": {
     "test": "cd test && node date-time-test"
   }
